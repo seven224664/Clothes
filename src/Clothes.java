@@ -15,7 +15,7 @@ public class Clothes{
 		this(size);
 		setColor(color);
 	}
-	
+
 	//////Size//////
 	public String getSize(){
 		return this.size;
@@ -24,7 +24,6 @@ public class Clothes{
 		this.size =size;
 	}
 
-	
 	//////Color//////
 	public String getColor(){
 		return this.color;
