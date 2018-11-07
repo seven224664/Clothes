@@ -7,33 +7,31 @@ public class Clothes{
 	
 	public Clothes(){
 	}
-	
 	public Clothes(String size){
 		this();
-		this.size = size;
+		setSize(size);
 	}
-	
 	public Clothes(String size,String color){
 		this(size);
-		this.color = color;
+		setColor(color);
 	}
 	
 	//設定尺寸
-	public void setSize (String size){
-		this.size =size;
-	}
 	public String getSize(){
 		return this.size;
 	}
+	public void setSize (String size){
+		this.size =size;
+	}
+
 	
 	//設定顏色
-	public void setColor (String color){
-		this.color =color;
-	}
 	public String getColor(){
 		return this.color;
 	}
-	
+	public void setColor (String color){
+		this.color =color;
+	}
 	
 	
 }
