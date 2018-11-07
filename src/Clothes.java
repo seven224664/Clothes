@@ -18,7 +18,7 @@ public class Clothes{
 		this.color = color;
 	}
 	
-	
+	//設定尺寸
 	public void setSize (String size){
 		this.size =size;
 	}
@@ -26,6 +26,7 @@ public class Clothes{
 		return this.size;
 	}
 	
+	//設定顏色
 	public void setColor (String color){
 		this.color =color;
 	}
