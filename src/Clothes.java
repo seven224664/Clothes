@@ -16,7 +16,11 @@ public class Clothes{
 		setColor(color);
 	}
 	
+<<<<<<< HEAD
 	//////Size//////
+=======
+	//設定尺寸
+>>>>>>> c4c73ffeb6abdb5f4347c279bd0fc0cea3a63cfd
 	public String getSize(){
 		return this.size;
 	}
@@ -25,7 +29,11 @@ public class Clothes{
 	}
 
 	
+<<<<<<< HEAD
 	//////Color//////
+=======
+	//設定顏色
+>>>>>>> c4c73ffeb6abdb5f4347c279bd0fc0cea3a63cfd
 	public String getColor(){
 		return this.color;
 	}
